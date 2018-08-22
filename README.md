@@ -11,7 +11,8 @@ Some experiments:
 
 (1) SVM to classify rotated and unrotated car image patches.  
 
-(2) CNN to classify rotated and unrotated car image patches to push up the performance of the SVM in (1).  
+(2a) CNN to classify rotated and unrotated car image patches to push up the performance of the SVM in (1).
+(2b) CNN to do regression on the car image patches orientations to predict an angle between 0 and 360.
 
 (3) Autoencoder (AEC) to push up the performance of the CNN in (2).  
 
