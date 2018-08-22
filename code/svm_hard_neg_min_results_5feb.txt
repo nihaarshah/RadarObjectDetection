@@ -1,0 +1,73 @@
+SVM Hard negative mining report:Round # 0
+Number of false positives: 308
+
+Average precision-recall score: 0.55
+Classification report for classifier SVC(C=0.05, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=True, random_state=None, shrinking=True,
+  tol=0.001, verbose=False):
+             precision    recall  f1-score   support
+
+        0.0       0.99      0.79      0.88      7435
+        1.0       0.56      0.96      0.71      2064
+
+avg / total       0.89      0.83      0.84      9499
+
+
+Confusion matrix:
+[[5856 1579]
+ [  73 1991]]Round # 1
+Number of false positives: 254
+
+Average precision-recall score: 0.52
+Classification report for classifier SVC(C=0.05, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=True, random_state=None, shrinking=True,
+  tol=0.001, verbose=False):
+             precision    recall  f1-score   support
+
+        0.0       0.98      0.76      0.86      7435
+        1.0       0.53      0.96      0.68      2064
+
+avg / total       0.89      0.81      0.82      9499
+
+
+Confusion matrix:
+[[5686 1749]
+ [  87 1977]]Round # 2
+Number of false positives: 211
+
+Average precision-recall score: 0.49
+Classification report for classifier SVC(C=0.05, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=True, random_state=None, shrinking=True,
+  tol=0.001, verbose=False):
+             precision    recall  f1-score   support
+
+        0.0       0.98      0.74      0.84      7435
+        1.0       0.50      0.94      0.66      2064
+
+avg / total       0.88      0.79      0.80      9499
+
+
+Confusion matrix:
+[[5522 1913]
+ [ 118 1946]]Round # 3
+Number of false positives: 180
+
+Average precision-recall score: 0.47
+Classification report for classifier SVC(C=0.05, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='linear',
+  max_iter=-1, probability=True, random_state=None, shrinking=True,
+  tol=0.001, verbose=False):
+             precision    recall  f1-score   support
+
+        0.0       0.97      0.73      0.83      7435
+        1.0       0.49      0.93      0.64      2064
+
+avg / total       0.87      0.77      0.79      9499
+
+
+Confusion matrix:
+[[5427 2008]
+ [ 145 1919]]
